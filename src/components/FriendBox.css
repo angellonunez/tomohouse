@@ -1,0 +1,60 @@
+.FriendBox {
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.FriendBox > .image-wrapper {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.profileImg {
+    width: 200px;
+    object-fit:cover;
+    transition: transform 1s;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+    margin: auto;
+}
+
+.profileImg:hover {
+    transform: scale(1.2);
+}
+
+.blueStar {
+    margin-top: 0;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.score {
+    color:cornflowerblue;
+    font-weight: bold;
+}
+
+.review {
+    color: gray;
+}
+
+.FriendBox > h2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.FriendBox > p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}

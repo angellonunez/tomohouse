@@ -1,0 +1,5 @@
+.FriendsMenu {
+    display: flex;
+    overflow-y: hidden;
+    scroll-snap-type: mandatory;
+}
