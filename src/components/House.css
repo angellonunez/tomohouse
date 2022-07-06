@@ -26,6 +26,10 @@
     margin: auto;
 }
 
+.owner-word {
+    font-weight: 600;
+}
+
 .first-details {
     display: flex;
     justify-content: space-between;
