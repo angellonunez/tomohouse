@@ -3,7 +3,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 3px;
     padding-bottom: 3px;
     position: fixed;
@@ -34,17 +34,8 @@
     letter-spacing: 0.6px;
 }
 
-.navMenu > .first-icon {
-    margin-left: 10px;
-    color: black;
-}
-
 .nav-box > img {
     width: 25px;
     border-radius: 50%;
     cursor: pointer;
-}
-
-.last-icon {
-    margin-right: 10px;
 }
