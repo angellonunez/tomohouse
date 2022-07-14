@@ -13,10 +13,9 @@
     box-shadow: 0 -1px 12px rgba(0, 0, 0, 0.2);
 }
 
-.nav-box > i {
-    font-size: 25px;
-    color: gray;
-    cursor: pointer;
+.navMenu > a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-box {
@@ -25,6 +24,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.nav-box > i {
+    font-size: 25px;
+    color: gray;
 }
 
 .nav-box > p {
@@ -33,6 +38,8 @@
     font-weight: lighter;
     letter-spacing: 0.6px;
 }
+
+
 
 .nav-box > img {
     width: 25px;

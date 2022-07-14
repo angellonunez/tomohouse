@@ -1,0 +1,35 @@
+.login {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.login-form > p {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.login-form > input {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.login-form > button {
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}

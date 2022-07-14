@@ -9,12 +9,12 @@ function House(props) {
             </div>
             <div className='first-details'>
                 <span className='location'>{props.location}</span>
-                <span className='calification'><i class="fa-solid fa-star"></i> 4.1</span>
+                <span className='calification'><i className="fa-solid fa-star"></i> 4.1</span>
             </div>
                 <p><span className='owner-word'>Owner:</span> {props.owner}</p>
                 <div className='participants-container'>
                 <span className='participants'>{props.participants}</span>
-                <span className='participants-logo'><i class="fa-solid fa-user-group"></i></span>
+                <span className='participants-logo'><i className="fa-solid fa-user-group"></i></span>
                 </div>
             <p className='date'>{props.date}</p>
             <p className='price'>{props.price}</p>

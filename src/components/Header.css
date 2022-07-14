@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(244, 244, 244);
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Nunito';
+    letter-spacing: 5px;
+    color: cornflowerblue;
+}

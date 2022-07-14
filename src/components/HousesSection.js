@@ -6,7 +6,7 @@ import { houses } from '../housesData';
 function HousesSection() {
     return (
         <div className='HousesSection'>
-            <h2>Houses</h2>
+            <h2 className='houses-title'>Houses</h2>
             <House image={houses[0].img} location={houses[0].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[0].owner}/>
             <House image={houses[1].img} location={houses[1].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[1].owner}/>
             <House image={houses[2].img} location={houses[2].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[2].owner}/>
