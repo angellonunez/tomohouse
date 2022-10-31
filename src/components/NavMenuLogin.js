@@ -1,8 +1,8 @@
 import React from 'react';
-import './NavMenuGuest.css';
+import './NavMenuLogin.css';
 import { Link } from 'react-router-dom';
 
-function NavMenuGuest() {
+function NavMenuLogin() {
     return (
         <div className='navMenu'>
             <Link to='/login'>
@@ -12,7 +12,7 @@ function NavMenuGuest() {
                 </div>
             </Link>
             <a href='/'>
-                <div className='nav-box parties'>
+                <div className='nav-box'>
                     <i class="fa-brands fa-pushed"></i> 
                     <p>Parties</p>
                 </div>
@@ -33,4 +33,4 @@ function NavMenuGuest() {
     )
 }
 
-export default NavMenuGuest;
+export default NavMenuLogin;

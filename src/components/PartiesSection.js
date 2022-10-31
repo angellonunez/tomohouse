@@ -1,13 +1,16 @@
 import React from 'react';
-import './HousesSection.css';
+import './PartiesSection.css';
 import House from './House';
 import { houses } from '../housesData';
+import { Link } from 'react-router-dom';
 
-function HousesSection() {
+function PartiesSection() {
     return (
-        <div className='HousesSection'>
-            <h2 className='houses-title'>Houses</h2>
+        <div className='PartiesSection'>
+            <h2 className='parties-title'>Parties</h2>
+            <Link to='/gustavohouse'>
             <House image={houses[0].img} location={houses[0].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[0].owner}/>
+            </Link>
             <House image={houses[1].img} location={houses[1].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[1].owner}/>
             <House image={houses[2].img} location={houses[2].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[2].owner}/>
             <House image={houses[3].img} location={houses[3].location} participants={houses[0].participants} date={houses[0].date} price={houses[0].price} owner={houses[3].owner}/>
@@ -18,4 +21,4 @@ function HousesSection() {
     )
 }
 
-export default HousesSection;
+export default PartiesSection;

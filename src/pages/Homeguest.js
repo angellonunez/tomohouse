@@ -1,11 +1,13 @@
 import React from 'react';
-import HousesSection from '../components/HousesSection';
+import Header from '../components/Header';
+import PartiesSection from '../components/PartiesSection';
 import NavMenuGuest from '../components/NavMenuGuest';
 
 function Homeguest() {
     return (
         <div>
-            <HousesSection />
+            <Header />
+            <PartiesSection />
             <NavMenuGuest />
         </div>
     )

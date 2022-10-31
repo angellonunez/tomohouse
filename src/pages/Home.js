@@ -1,7 +1,7 @@
 import React from 'react';
 import FriendsMenu from '../components/FriendsMenu';
 import Header from '../components/Header';
-import HousesSection from '../components/HousesSection';
+import PartiesSection from '../components/PartiesSection';
 import NavMenu from '../components/NavMenu';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
         <div>
             <Header />
             <FriendsMenu />
-            <HousesSection />
+            <PartiesSection />
             <NavMenu />
         </div>
     )

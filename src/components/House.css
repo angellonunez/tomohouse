@@ -3,6 +3,7 @@
     display: block;
     margin: auto;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .house-image-container {
@@ -26,7 +27,11 @@
     margin: auto;
 }
 
-.owner-word {
+.fa-star {
+    color: cornflowerblue;
+}
+
+.owner-word, .price {
     font-weight: 600;
 }
 

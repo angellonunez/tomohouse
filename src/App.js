@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext } from './context/AuthContext';
 import Profile from './pages/Profile';
+import GustavoHouse from './pages/GustavoHouse';
 
 
 function App() {
@@ -29,9 +30,11 @@ function App() {
             <Route path="homeguest" element={<Homeguest />} />
             <Route path="login" element={<Login />} />
             <Route path="profile" element={
-            <RequiredAuth>
-              <Profile />
-            </RequiredAuth>} />
+              <RequiredAuth>
+                <Profile />
+              </RequiredAuth>} 
+            />
+            <Route path="gustavohouse" element={<GustavoHouse />} />
           </Route>
         </Routes>
       </BrowserRouter>
